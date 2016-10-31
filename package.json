@@ -4,7 +4,7 @@
   "description": "Boilerplate for Electron + React + Webpack",
   "main": "./build/main.js",
   "scripts": {
-    "compile": "rm -rf build/ webpack",
+    "compile": "rm -rf build/ && webpack",
     "start": "npm run compile && electron ."
   },
   "repository": {
