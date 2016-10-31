@@ -7,6 +7,10 @@
     "compile": "rm -rf build/ webpack",
     "start": "npm run compile && electron ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimFung/yareb.git"
+  },
   "author": "JimFung(@psisous)",
   "license": "MIT",
   "dependencies": {
