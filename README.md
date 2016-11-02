@@ -1,8 +1,16 @@
 # **YAREB**: Yet Another React + Electron Boilerplate
 
-There are lots of amazing boilerplates out there for you to choose from if you're looking to start on a new Electron + React project. I suggest you use this [one](https://github.com/chentsulin/electron-react-boilerplate). It's incredibly comprehensive and has a lot of features built in, like hot reloading.
+There are lots of amazing boilerplates out there for you to choose from if you're looking to start on a new Electron + React project. I suggest you use this [one](https://github.com/chentsulin/electron-react-boilerplate). It's incredibly comprehensive and has a lot of features built in, like hot reloading, type checking, packaging, etc etc.
 
 Personally, it was too much overhead for me so I decided to build my boilerplate. Something with a smaller footprint and after reading webpack, electron, react docs and some hacking, YAREB was born. I'm clearly no expert with any of these technologies so if you run into problems/issues send a PR or fork it and do perform whatever dark magic you want. Have fun!
+
+## **Installation**
+To get started, you'll want to clone this repo then install its dependencies. Then you're all set!
+```bash
+git clone https://github.com/jimfung/yareb <YOUR-PROJECT-NAME>
+cd <YOUR-PROJECT-NAME>
+npm install
+```
 
 ## **Using**
 ```bash
